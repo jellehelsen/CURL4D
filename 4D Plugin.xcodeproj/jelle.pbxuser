@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeExecutable = 60EA58501066C89800EC9A44 /* 4D */;
+		activeTarget = 8D01CCC60486CAD60068D4B7 /* CURL4D */;
+		addToTargets = (
+			8D01CCC60486CAD60068D4B7 /* CURL4D */,
+		);
+		breakpoints = (
+			60EA58C31066D64200EC9A44 /* CURL4D.c:101 */,
+			60EA58E91066D92000EC9A44 /* CURL4D.c:84 */,
+			60EA59001066DB9A00EC9A44 /* CURL4D.c:54 */,
+			60EA593C1066DF8F00EC9A44 /* CURL4D.c:68 */,
+			60EA598A1066EFB200EC9A44 /* CURL4D.c:126 */,
+			60EA59971066F40500EC9A44 /* CURL4D.c:144 */,
+		);
+		codeSenseManager = 6008597C10544C2000271348 /* Code sense */;
+		executables = (
+			60EA58501066C89800EC9A44 /* 4D */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					1361,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1473,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1433,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 275253312;
+			PBXWorkspaceStateSaveDate = 275253312;
+		};
+		perUserProjectItems = {
+			601160B4106808580083FCF2 /* PBXTextBookmark */ = 601160B4106808580083FCF2 /* PBXTextBookmark */;
+			60EA58461066C76F00EC9A44 = 60EA58461066C76F00EC9A44 /* PBXTextBookmark */;
+			60EA58B71066D4BB00EC9A44 = 60EA58B71066D4BB00EC9A44 /* PBXTextBookmark */;
+			60EA58B91066D4BB00EC9A44 = 60EA58B91066D4BB00EC9A44 /* PBXTextBookmark */;
+			60EA58BA1066D4BB00EC9A44 = 60EA58BA1066D4BB00EC9A44 /* PBXTextBookmark */;
+			60EA58BB1066D4BB00EC9A44 = 60EA58BB1066D4BB00EC9A44 /* PBXTextBookmark */;
+			60EA58BC1066D4BB00EC9A44 = 60EA58BC1066D4BB00EC9A44 /* PBXTextBookmark */;
+			60EA58BD1066D4BB00EC9A44 = 60EA58BD1066D4BB00EC9A44 /* PBXTextBookmark */;
+			60EA59821066E8EF00EC9A44 = 60EA59821066E8EF00EC9A44 /* PBXTextBookmark */;
+			60EA59AA1067475300EC9A44 = 60EA59AA1067475300EC9A44 /* PBXTextBookmark */;
+			60EA59AB1067475300EC9A44 = 60EA59AB1067475300EC9A44 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 6008597B10544C2000271348 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	18B684EE06944F2000CC6A1E /* 4DPluginAPI.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1651, 105989}}";
+			sepNavSelRange = "{137539, 31}";
+			sepNavVisRange = "{0, 1321}";
+		};
+	};
+	18B684F006944F2000CC6A1E /* 4DPluginAPI.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1651, 13273}}";
+			sepNavSelRange = "{38789, 41}";
+			sepNavVisRange = "{37629, 1713}";
+		};
+	};
+	18B684F106944F2000CC6A1E /* EntryPoints.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1651, 5044}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{10097, 3337}";
+		};
+	};
+	18B684F206944F2000CC6A1E /* Flags.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1651, 618}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 766}";
+		};
+	};
+	18B684F306944F2000CC6A1E /* PrivateTypes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1651, 1534}}";
+			sepNavSelRange = "{2101, 13}";
+			sepNavVisRange = "{1340, 1156}";
+		};
+	};
+	18B684F406944F2000CC6A1E /* PublicTypes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {719, 11596}}";
+			sepNavSelRange = "{818, 12}";
+			sepNavVisRange = "{317, 767}";
+			sepNavWindowFrame = "{{893, 560}, {750, 558}}";
+		};
+	};
+	18B684FE06944F8800CC6A1E /* CURL4D.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {874, 2145}}";
+			sepNavSelRange = "{3460, 0}";
+			sepNavVisRange = "{1578, 547}";
+			sepNavWindowFrame = "{{38, 594}, {750, 558}}";
+		};
+	};
+	32BAE0B30371A71500C91783 /* CURL4D_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1651, 636}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 126}";
+		};
+	};
+	6008597B10544C2000271348 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	6008597C10544C2000271348 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	601160B4106808580083FCF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32BAE0B30371A71500C91783 /* CURL4D_Prefix.pch */;
+		name = "CURL4D_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 126;
+		vrLoc = 0;
+	};
+	60EA58461066C76F00EC9A44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 60EA58471066C76F00EC9A44 /* _string.h */;
+		name = "_string.h: 50";
+		rLen = 37;
+		rLoc = 1522;
+		rType = 0;
+		vrLen = 1486;
+		vrLoc = 986;
+	};
+	60EA58471066C76F00EC9A44 /* _string.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = _string.h;
+		path = /usr/include/secure/_string.h;
+		sourceTree = "<absolute>";
+	};
+	60EA58501066C89800EC9A44 /* 4D */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			sample.4db,
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 60EA58511066C89800EC9A44 /* 4D.app */;
+		libgmallocEnabled = 0;
+		name = 4D;
+		savedGlobals = {
+			"/Users/jelle/Desktop/CURL Plugin/sample.4dbase/Plugins/4D Plugin.bundle/Contents/MacOS/4D Plugin" = (
+				{
+					display = 1;
+					filename = "/Users/jelle/Desktop/CURL Plugin/4DPlugin.c";
+					name = curlHandle;
+				},
+			);
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		startupPath = "$(SRCROOT)/Sample.4dbase/";
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$fs = 1;
+			$gs = 1;
+			$ss = 1;
+		};
+	};
+	60EA58511066C89800EC9A44 /* 4D.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = 4D.app;
+		path = "/Applications/4D v11 SQL Release 4 (Custom)/4D.app";
+		sourceTree = "<absolute>";
+	};
+	60EA58B71066D4BB00EC9A44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18B684F006944F2000CC6A1E /* 4DPluginAPI.h */;
+		name = "4DPluginAPI.h: 805";
+		rLen = 41;
+		rLoc = 38789;
+		rType = 0;
+		vrLen = 1713;
+		vrLoc = 37629;
+	};
+	60EA58B91066D4BB00EC9A44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18B684F106944F2000CC6A1E /* EntryPoints.h */;
+		name = "EntryPoints.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 3337;
+		vrLoc = 10097;
+	};
+	60EA58BA1066D4BB00EC9A44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18B684F206944F2000CC6A1E /* Flags.h */;
+		name = "Flags.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 766;
+		vrLoc = 0;
+	};
+	60EA58BB1066D4BB00EC9A44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18B684F306944F2000CC6A1E /* PrivateTypes.h */;
+		name = "PrivateTypes.h: 95";
+		rLen = 13;
+		rLoc = 2101;
+		rType = 0;
+		vrLen = 1156;
+		vrLoc = 1340;
+	};
+	60EA58BC1066D4BB00EC9A44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32BAE0B30371A71500C91783 /* CURL4D_Prefix.pch */;
+		name = "4D Plugin_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 126;
+		vrLoc = 0;
+	};
+	60EA58BD1066D4BB00EC9A44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18B684F406944F2000CC6A1E /* PublicTypes.h */;
+		name = "PublicTypes.h: 38";
+		rLen = 12;
+		rLoc = 818;
+		rType = 0;
+		vrLen = 1055;
+		vrLoc = 315;
+	};
+	60EA58C31066D64200EC9A44 /* CURL4D.c:101 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 18B684FE06944F8800CC6A1E /* CURL4D.c */;
+		functionName = "getURL()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 101;
+		location = "4D Plugin";
+		modificationTime = 275201028.111481;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	60EA58E91066D92000EC9A44 /* CURL4D.c:84 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 18B684FE06944F8800CC6A1E /* CURL4D.c */;
+		functionName = "convertString()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 84;
+		location = "4D Plugin";
+		modificationTime = 275201028.1117131;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	60EA59001066DB9A00EC9A44 /* CURL4D.c:54 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 18B684FE06944F8800CC6A1E /* CURL4D.c */;
+		functionName = "InitPlugin()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 54;
+		location = "4D Plugin";
+		modificationTime = 275201028.111829;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	60EA593C1066DF8F00EC9A44 /* CURL4D.c:68 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 18B684FE06944F8800CC6A1E /* CURL4D.c */;
+		functionName = "writeToBuffer()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 68;
+		location = "4D Plugin";
+		modificationTime = 275201028.111932;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	60EA59821066E8EF00EC9A44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18B684EE06944F2000CC6A1E /* 4DPluginAPI.c */;
+		name = "4DPluginAPI.c: 6760";
+		rLen = 31;
+		rLoc = 137539;
+		rType = 0;
+		vrLen = 1321;
+		vrLoc = 0;
+	};
+	60EA598A1066EFB200EC9A44 /* CURL4D.c:126 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 18B684FE06944F8800CC6A1E /* CURL4D.c */;
+		functionName = "Get_URL_Blob()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 126;
+		location = "4D Plugin";
+		modificationTime = 275201028.112036;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	60EA59971066F40500EC9A44 /* CURL4D.c:144 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 18B684FE06944F8800CC6A1E /* CURL4D.c */;
+		functionName = "Get_URL_Text()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 144;
+		location = "4D Plugin";
+		modificationTime = 275201059.7426969;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	60EA59AA1067475300EC9A44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18B684FE06944F8800CC6A1E /* CURL4D.c */;
+		name = "CURL4D.c: 159";
+		rLen = 0;
+		rLoc = 3291;
+		rType = 0;
+		vrLen = 1018;
+		vrLoc = 2442;
+	};
+	60EA59AB1067475300EC9A44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32BAE0B30371A71500C91783 /* CURL4D_Prefix.pch */;
+		name = "CURL4D_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 126;
+		vrLoc = 0;
+	};
+	8D01CCC60486CAD60068D4B7 /* CURL4D */ = {
+		activeExec = 0;
+	};
+}
