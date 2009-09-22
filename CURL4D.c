@@ -10,7 +10,7 @@
 
 
 #include "4DPluginAPI.h"
-#include "4DPlugin.h"
+#include "CURL4D.h"
 
 #include <stdio.h>
 #include <string.h>
