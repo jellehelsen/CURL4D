@@ -78,22 +78,25 @@ size_t writeToBuffer(void* data, size_t size, size_t nmemb, void* buffer){
   return realsize;
 }
 
-char* PA_UnistringToChar(PA_Unistring* src){
-	char* dst = malloc(src->fLength);
-	for(size_t i = 0; i < src->fLength; i++)
-	{
-		dst[i] = src->fString[i];
-	}
-	dst[src->fLength] = 0;
+char* PA_UnistringToChar(PA_Unistring* src){	
+	CFStringRef cfstr = CFStringCreateWithBytes(kCFAllocatorDefault, src->fString, (src->fLength)*2, kCFStringEncodingUTF16, false);
+	int size = CFStringGetLength(cfstr)+1;
+	char *dst = malloc(size);
+	CFStringGetCString(cfstr, dst, size, kCFStringEncodingUTF8);
 	return dst;
+	
 }
 
 PA_Unichar* charToPA_Unichar(char* src){
-	PA_Unichar *dst = malloc(sizeof(PA_Unichar)*strlen(src));
-	for(size_t i = 0; i < strlen(src); i++)
-	{
-		dst[i] = src[i];
-	}
+	CFStringRef cfstr = CFStringCreateWithCString(kCFAllocatorDefault, src, kCFStringEncodingUTF8);
+	PA_Unichar *dst = malloc(CFStringGetLength(cfstr));
+	CFIndex index;
+//	for(size_t i = 0; i < strlen(src); i++)
+//	{
+//		dst[i] = src[i];
+//	}
+	CFStringGetBytes(cfstr, CFRangeMake(0, CFStringGetLength(cfstr)), kCFStringEncodingUTF16, 0, false, dst, CFStringGetLength(cfstr), &index);
+	//dst[index+1]=0;
 	return dst;
 }
 
