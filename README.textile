@@ -10,7 +10,7 @@ h3. Get URL Text(URL) &rarr; text
 
 h4. Parameters
 
-table({width:100%%}).
+table{width:100%}.
 |*Parameter*|*Type*|||
 |URL|string|&rarr;|url to download|
 |Function result|text|&larr;|downloaded text|
@@ -19,7 +19,7 @@ h3. Get URL Blob(URL) &rarr; blob
 
 h4. Parameters
 
-table({width:100%%}).
+table{width:100%}.
 |*Parameter*|*Type*|||
 |URL|string|&rarr;|url to download|
 |Function result|blob|&larr;|downloaded data|
