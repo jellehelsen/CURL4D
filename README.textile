@@ -1,0 +1,27 @@
+h1. CURL4D
+
+CURL4D provides access to the CURL library for accessing http, https, ftp, ftps, tftp, ...
+
+Currently only http has been tested (sort of). Currently only a Mac OS X version is available. 
+
+h2. Available methods
+
+h3. Get URL Text(URL) &rarr; text
+
+h4. Parameters
+
+table({width:100%%}).
+|*Parameter*|*Type*|||
+|URL|string|&rarr;|url to download|
+|Function result|text|&larr;|downloaded text|
+
+h3. Get URL Blob(URL) &rarr; blob
+
+h4. Parameters
+
+table({width:100%%}).
+|*Parameter*|*Type*|||
+|URL|string|&rarr;|url to download|
+|Function result|blob|&larr;|downloaded data|
+
+URLs should be properly formatted.
