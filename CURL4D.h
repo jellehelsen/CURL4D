@@ -11,8 +11,11 @@
 
 enum{
 	eCMD_Get_URL_Blob = 1,
-	eCMD_Get_URL_Text
+	eCMD_Get_URL_Text,
+	eCMD_Post_Data_to_URL,
+	eTest
 };
+
 void InitPlugin();
 void DeinitPlugin();
 

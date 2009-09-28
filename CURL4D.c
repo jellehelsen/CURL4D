@@ -52,14 +52,11 @@ void PluginMain( long selector, PA_PluginParameters params )
 
 void InitPlugin()
 {
-	// write initialisation code here...
-//	curl_global_init(CURL_GLOBAL_NOTHING);
 	curlHandle = curl_easy_init();
 }
 
 void DeinitPlugin()
 {
-	// write deinitialisation code here...
 	curl_easy_cleanup(curlHandle);
 	curl_global_cleanup();
 }
@@ -91,12 +88,7 @@ PA_Unichar* charToPA_Unichar(char* src){
 	CFStringRef cfstr = CFStringCreateWithCString(kCFAllocatorDefault, src, kCFStringEncodingUTF8);
 	PA_Unichar *dst = malloc(CFStringGetLength(cfstr));
 	CFIndex index;
-//	for(size_t i = 0; i < strlen(src); i++)
-//	{
-//		dst[i] = src[i];
-//	}
 	CFStringGetBytes(cfstr, CFRangeMake(0, CFStringGetLength(cfstr)), kCFStringEncodingUTF16, 0, false, dst, CFStringGetLength(cfstr), &index);
-	//dst[index+1]=0;
 	return dst;
 }
 
